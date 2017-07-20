@@ -42,7 +42,7 @@ echo 'Hello from Kubernetes storage of tc-tiny-go-ws v.1.0' > /tmp/www/index.htm
 cat /tmp/www/index.html
 ```
 
-Test on Mac:
+3. Test on Mac:
 
 ```bash
 CGO_ENABLED=0 go build -a -tags netgo -ldflags '-w' .
@@ -54,7 +54,20 @@ Open in browser:
 
 http://localhost:8080
 
+
+4. Update the index.html file:
+
+```bash
+echo 'Hello from Kubernetes storage of tc-tiny-go-ws v.2.0' > /tmp/www/index.html
+cat /tmp/www/index.html
+```
+
+Open in browser:
+
+http://localhost:8080
 Test with Docker:
+
+5. Test in Docker:
 
 ```bash
 docker run -p 8080:8080 topconnector/tc-tiny-go-ws:v1
