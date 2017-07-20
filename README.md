@@ -24,12 +24,14 @@ is kept at the minimum.
 
 ## tiny-go-ws
 
+```bash
 git clone https://github.com/topconnector/tiny-go-ws.git
-
 cd tiny-go-ws
+```
 
 1. Create folder:
-mkdir /tmp/www
+```bash
+mkdir /tmp/www```
 
 2. In the /tmp/www folder, create an index.html file:
 
