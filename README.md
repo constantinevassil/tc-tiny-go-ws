@@ -22,11 +22,18 @@ When Go apps are build statically with all libraries built in their size
 is kept at the minimum.
 
 
-## helloworld-go-ws
+## tiny-go-ws
 
 git clone https://github.com/topconnector/tiny-go-ws.git
 
 cd tiny-go-ws
+
+1. Create folder:
+mkdir /tmp/www
+
+2. In the /tmp/www folder, create an index.html file:
+
+echo 'Hello from Kubernetes storage of tiny-go-ws v.1.0' > /tmp/www/index.html
 
 Test on Mac:
 
