@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	fs := http.StripPrefix("/", http.FileServer(http.Dir("/")))
+	fs := http.StripPrefix("/", http.FileServer(http.Dir("/www")))
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Cache-Control", "private")
