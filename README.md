@@ -31,11 +31,14 @@ cd tiny-go-ws
 
 1. Create folder:
 ```bash
-mkdir /tmp/www```
+mkdir /tmp/www
+```
 
 2. In the /tmp/www folder, create an index.html file:
 
+```bash
 echo 'Hello from Kubernetes storage of tiny-go-ws v.1.0' > /tmp/www/index.html
+```
 
 Test on Mac:
 
