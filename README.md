@@ -65,7 +65,8 @@ cat /tmp/www/index.html
 Open in browser:
 
 http://localhost:8080
-Test with Docker:
+
+Server is running, the static file is updated, the browser is showing the new static file.
 
 5. Test in Docker:
 
