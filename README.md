@@ -27,6 +27,7 @@ is kept at the minimum.
 ```bash
 git clone https://github.com/topconnector/tc-tiny-go-ws.git
 cd tc-tiny-go-ws
+chmod +x ./bld.bash
 ```
 
 1. Create folder:
