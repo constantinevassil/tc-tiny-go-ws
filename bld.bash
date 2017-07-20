@@ -4,12 +4,12 @@
 # license that can be found in the LICENSE file.
 
 # 4,279,416 Jul 14 19:19 tiny-go-ws
-echo "update tiny-go-ws"
+echo "update tc-tiny-go-ws"
 go fmt main.go
 CGO_ENABLED=0 GOOS=linux go build -a -tags netgo -ldflags '-w' .
 
-docker build -t tiny-go-ws:v1 .
-docker tag tiny-go-ws:v1 topconnector/tiny-go-ws:v1
-docker push topconnector/tiny-go-ws
+docker build -t tc-tiny-go-ws:v1 .
+docker tag tc-tiny-go-ws:v1 topconnector/tc-tiny-go-ws:v1
+docker push topconnector/tc-tiny-go-ws
 docker images
 
