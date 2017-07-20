@@ -1,4 +1,4 @@
-# tiny-go-ws
+# tc-tiny-go-ws
 
  A tiny web server that serves a static file.
  
@@ -22,11 +22,11 @@ When Go apps are build statically with all libraries built in their size
 is kept at the minimum.
 
 
-## tiny-go-ws
+## tc-tiny-go-ws
 
 ```bash
-git clone https://github.com/topconnector/tiny-go-ws.git
-cd tiny-go-ws
+git clone https://github.com/topconnector/tc-tiny-go-ws.git
+cd tc-tiny-go-ws
 ```
 
 1. Create folder:
@@ -37,7 +37,7 @@ mkdir /tmp/www
 2. In the /tmp/www folder, create an index.html file:
 
 ```bash
-echo 'Hello from Kubernetes storage of tiny-go-ws v.1.0' > /tmp/www/index.html
+echo 'Hello from Kubernetes storage of tc-tiny-go-ws v.1.0' > /tmp/www/index.html
 cat /tmp/www/index.html
 ```
 
@@ -45,7 +45,7 @@ Test on Mac:
 
 ```bash
 CGO_ENABLED=0 go build -a -tags netgo -ldflags '-w' .
-./tiny-go-ws
+./tc-tiny-go-ws
 ```
 Started, serving at 8080
 
@@ -56,6 +56,6 @@ http://localhost:8080
 Test with Docker:
 
 ```bash
-docker run -p 8080:8080 topconnector/tiny-go-ws:v1
+docker run -p 8080:8080 topconnector/tc-tiny-go-ws:v1
 ```
 
