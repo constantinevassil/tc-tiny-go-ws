@@ -38,6 +38,7 @@ mkdir /tmp/www
 
 ```bash
 echo 'Hello from Kubernetes storage of tiny-go-ws v.1.0' > /tmp/www/index.html
+cat /tmp/www/index.html
 ```
 
 Test on Mac:
