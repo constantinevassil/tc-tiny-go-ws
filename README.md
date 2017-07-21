@@ -15,11 +15,3 @@ When Go apps are build statically with all libraries built in their size
 is kept at the minimum.
 
 
-## tc-tiny-go-ws
-
-```bash
-git clone https://github.com/topconnector/tc-tiny-go-ws.git
-cd tc-tiny-go-ws
-chmod +x ./bld.bash
-```
-
